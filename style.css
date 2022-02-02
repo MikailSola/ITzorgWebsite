@@ -6,7 +6,7 @@ body{
     overflow: hidden;
 }
 
-ul {
+.topNav ul {
 
   list-style-type: none;
   margin: 0;
@@ -69,11 +69,14 @@ img.headerImage {
     margin-top: 20px;
     margin-right: 20px;
 }
+.theLeftNav li{
+    
+}
 
 
 .centerContact {
 text-align: center;
-font-size: 25px;
+font-size: 20px;
 margin: auto;
 margin-top: 20px;
 position: center;
@@ -83,4 +86,8 @@ border: 5px solid rgb(4, 77, 50);
 padding: 50px;
 color: white;
 background-color: darkslategrey;
+}
+
+.centerContact p{
+  margin: 0;
 }
