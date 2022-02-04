@@ -3,7 +3,6 @@ body{
     margin:0;
     padding:0;
     background-color:rgb(42, 44, 59);
-    overflow: hidden;
 }
 
 .topnav {
@@ -54,6 +53,15 @@ img.headerImage {
     height: 43px;
 }
 
+.centerimg img {
+  display: block;
+  margin-top: 22%;
+  margin-bottom: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .theLeftNav {
     width: 11.8%;
     height: 200%;   
@@ -67,12 +75,8 @@ color: purple;
 }
 
 .copyright {
-height: 12%;
-width: 100%;
   overflow: hidden;
-  background-color: rgba(15, 23, 46, 0.6);
-  position: absolute;
-  bottom: 0;
+  background-color: rgb(15, 23, 46);
   text-align: center;
   font-size: 30px;
 }
