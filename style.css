@@ -35,17 +35,17 @@ body{
   color: white;
 }
 
+.wrapper{
+  display:flex;
+}
+
 .center {
-margin: auto;
 margin-top: 20px;
-position: center;
-justify-content: center;
-width: 68%;
+width: 120ch;
 border: 5px solid rgb(4, 77, 50);
 padding: 50px;
 color: white;
 background-color: darkslategrey;
-float: left;
 }
 
 img.headerImage {
@@ -55,36 +55,47 @@ img.headerImage {
 
 .centerimg img {
   display: block;
-  margin-top: 22%;
+  margin-top: 10px;
   margin-bottom: 10px;
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .theLeftNav {
-    width: 11.8%;
+    width: 200px;
     height: 200%;   
-    border: 5px solid darkslateblue;
-    float: left;
+    border: 5px solid rgb(4, 77, 50);
     margin-top: 20px;
     margin-right: 20px;
+    background-color: darkslategrey;
+  
 }
 .theLeftNav li{
 color:white;    
 }
 
 .copyright {
-  height: 40px;
-  width: 100%;
+width: 100%;
 background-color: rgb(15, 23, 46);
-  margin-top: auto;
-  text-align: center;
-  font-size: 20px;
+position:absolute;                 
+bottom:0;                         
+ left:0;   
+ text-align: center;
+ color: whitesmoke;
 }
 
-
-
+.centerContact {
+margin: auto;
+margin-top: 20px;
+position: center;
+justify-content: center;
+width: 68%;
+border: 5px solid rgb(4, 77, 50);
+padding: 50px;
+color: white;
+background-color: darkslategrey;
+}
 
 .centerContact p{
   margin: 0;
@@ -98,4 +109,9 @@ background-color: rgb(15, 23, 46);
     padding: 75px;
     justify-content: center;
     background-color: darkslateblue;
+}
+
+.theLeftNav a { 
+ text-decoration: none; 
+ color: orange; 
 }
