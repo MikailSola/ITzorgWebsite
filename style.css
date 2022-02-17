@@ -77,11 +77,11 @@ color:white;
 
 .copyright {
 width: 100%;
+height: 50px;
 background-color: rgb(15, 23, 46);
-position:absolute;                 
-bottom:0;                         
- left:0;   
- text-align: center;
+position: relative;                   
+text-align: center;
+
  color: whitesmoke;
 }
 
@@ -96,9 +96,16 @@ padding: 50px;
 color: white;
 background-color: darkslategrey;
 }
+.centerContact a{
+color: rgb(15, 23, 46);
+}
 
 .centerContact p{
   margin: 0;
+ text-align: center;
+}
+.centerContact h1{
+  text-align: center;
 }
 
 .centerHeader {
@@ -113,5 +120,6 @@ background-color: darkslategrey;
 
 .theLeftNav a { 
  text-decoration: none; 
- color: orange; 
+ color: rgb(15, 23, 46); 
+ text-decoration: underline;
 }
