@@ -17,28 +17,31 @@
   <a href="about.html">About</a>
 </div>
 
-<div class="centerContact">
+<div class="container">
+  <form action="action_page.php">
 
+    <label for="vnaae">Uw Voornaam</label>
+    <input type="text" id="vnaam" name="Voornaam" placeholder="Naam.."
 
+    <label for="lname">Uw Achternaam</label>
+    <input type="text" id="anaam" name="Achternaam" placeholder="Achternaam..">
 
-<h1>Contact opnemen?</h1>
-<p> Heeft u vragen en wilt u contact opnemen?</p>
-<p> Bel ons via dit nummer:</p>
-<br>
-<p> Walat: 0612345678
-<br>
-<p> Mikail: 0612345678
-<h1>Geen antwoord?</h1>
-<p> Mail ons via deze e-mail:</p>
-<br>
+    <label for="land">Land</label>
+    <select id="land" name="land">
+      <option value="nederland">Nederland</option>
+      <option value="engeland">Engeland</option>
+      <option value="belgië">België</option>
+      <option value="duitsland">Duitsland</option>
+    </select>
 
-<p>Walat:
-  <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlGVBJLVLlgBpTCSFMlgDBtmSDFqjSpHwHQZcXFzVglGtnNHQfhzPzVMsSpwFxGxfpTDJV">Walat123_4@icloud.com</a></p>
-<p>Mikail:
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlGVBJLVLlgBpTCSFMlgDBtmSDFqjSpHwHQZcXFzVglGtnNHQfhzPzVMsSpwFxGxfpTDJV">MikailSola21@gmail.com</a></p>
+    <label for="onderwerp">Onderwerp</label>
+    <textarea id="onderwerp" name="onderwerp" placeholder="Schrijf iets.." style="height:200px"></textarea>
 
+    <input type="submit" value="Verzenden">
+
+  </form>
 </div>
-
+    
 <div class="copyright">
   <p>Copyright © Brainstorm 1980-2022</p>
 </div>
