@@ -8,6 +8,7 @@ body{
 .topnav {
   overflow: hidden;
   background-color: rgb(34, 34, 37); 
+  width: 100%;
 }
 
 .topnav a {
@@ -94,16 +95,22 @@ img.headerImage {
   
 }
 .theLeftNav li{
-color:white;    
+color:black;    
 }
 
 .copyright {
 width: 100%;
-height: 50px;
 background-color: rgb(15, 23, 46);
-position: relative;                   
+min-height: 100%;
+margin-bottom: -50px;
 text-align: center;
+font-size: 20px;
 color: whitesmoke;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 .centerContact {
@@ -178,4 +185,5 @@ input[type=submit]:hover {
   margin-top: 40px;
   width: 80%;
   margin-left: 110px;
+  margin-bottom: 50px;
 }
