@@ -51,6 +51,20 @@ background-color: darkslategrey;
 
 }
 
+.centerVideo {
+margin-top: 20px;
+width: 120ch;
+font-size: 17px;
+border: 5px solid rgb(4, 77, 50);
+padding: 50px;
+color: white;
+background-color: darkslategrey;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-bottom: 20px;
+}
+
 .centerabout {
 margin-top: 50px;
 width: 120ch;
@@ -62,6 +76,9 @@ background-color: darkslategrey;
 margin-left: 250px;
 }
 
+.centerabout a{
+    color:white;
+}
 .centerabout p{
 font-size: 19px;
 }
@@ -192,3 +209,4 @@ input[type=submit]:hover {
   margin-left: 110px;
   margin-bottom: 50px;
 }
+
